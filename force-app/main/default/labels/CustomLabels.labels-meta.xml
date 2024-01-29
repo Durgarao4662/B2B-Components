@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>lightning_LightningCarousel_autoPlay</fullName>
+        <categories>lightning</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>autoPlay</shortDescription>
+        <value>Stop auto-play</value>
+    </labels>
+    <labels>
+        <fullName>lightning_LightningCarousel_tabString</fullName>
+        <categories>lightning</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>tabString</shortDescription>
+        <value>Tab</value>
+    </labels>
+</CustomLabels>

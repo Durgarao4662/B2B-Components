@@ -1,0 +1,37 @@
+<!--
+  Copyright (c) 2019, salesforce.com, inc.
+  All rights reserved.
+  SPDX-License-Identifier: MIT
+  For full license text, see the LICENSE file in the repo root or https://opensource.org/licenses/MIT
+ -->
+
+ <template>
+    <div style="width:380px; height:500px; margin:20px; margin-bottom:150px;">
+    <lightning-card>
+    <div role="tabpanel" id="carousel-image" aria-hidden={ariaHidden}>
+        <a
+            href={href}
+            class="slds-carousel__panel-action slds-text-link_reset"
+            tabindex={tabIndex}
+        >
+    </a>
+            <div class="slds-carousel__image">
+                <img src={src} alt={alternativeText} />
+            </div>
+            <div class="slds-carousel__content">
+                <h2 class="slds-carousel__content-title">{header}</h2>
+                <p>{description}</p>
+                <c-star-rating
+  rating=4
+  max-rating=5
+  active-color="#ffd055"
+  inactive-color="#d8d8d8"
+  read-only="false" ></c-star-rating><span>(55)</span>
+    <br>
+                <b class="product-price">{price}</b> &nbsp; <span class="or-price">$250</span> <span class="discount"> 20% off</span>
+            </div>
+        
+    </div>
+    </lightning-card>
+    </div>
+</template>

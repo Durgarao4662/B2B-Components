@@ -1,0 +1,45 @@
+<!--
+  Copyright (c) 2019, salesforce.com, inc.
+  All rights reserved.
+  SPDX-License-Identifier: MIT
+  For full license text, see the LICENSE file in the repo root or https://opensource.org/licenses/MIT
+ -->
+<!-- !! NOTE: Do not commit changes to this file. It is intended as a starter shell only. -->
+<template>
+    <c-card title="Carousel">
+        <div class="slds-card__body slds-card__body_inner">
+            <c-carousel>
+                <c-carousel-image
+                    src="resource/1706002464000/product1"
+                    header="Highlander"
+                    description="First card description."
+                    price="$199"
+                    alternative-text="First card accessible description."
+                    href="https://www.salesforce.com"
+                >
+                </c-carousel-image>
+                <c-carousel-image
+                    src="resource/1706002464000/product2"
+                    header="Calvin Klein"
+                    description="Second card description."
+                    price="$199"
+                    alternative-text="Second card accessible description."
+                    href="https://www.salesforce.com"
+                >
+                </c-carousel-image>
+                <c-carousel-image
+                    src="resource/1706002464000/product3"
+                    header="Tommy Hilfiger"
+                    description="Third card description."
+                    price="$199"
+                    alternative-text="Third card accessible description."
+                    href="https://www.salesforce.com"
+                >
+                </c-carousel-image>
+            </c-carousel>
+            <!-- <c-view-source source="carouselRecipes" slot="footer">
+                A collection of images that are displayed one at a time.
+            </c-view-source> -->
+        </div>
+    </c-card>
+</template>

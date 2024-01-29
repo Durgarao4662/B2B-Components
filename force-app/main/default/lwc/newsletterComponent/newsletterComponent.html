@@ -1,0 +1,16 @@
+<!-- newsletterComponent.html -->
+<template>
+    <template if:false={success}>
+        <lightning-card title="Subscribe to Our Newsletter">
+            <div class="container">
+                <lightning-input class="inp-textbox" label="Email" type="email" value={email} onchange={handleEmailChange} placeholder="Enter your email"></lightning-input>
+                <lightning-button class="sub-button" label="Subscribe" variant="brand" onclick={subscribe}></lightning-button>
+            </div>
+        </lightning-card>
+    </template>
+    <template if:true={success}>
+        <lightning-card title="Subscribe to Our Newsletter">
+        <h1 style="color:green;font-weight:strong;text-align:center">{successMsg}</h1>
+    </lightning-card>
+        </template>
+</template>

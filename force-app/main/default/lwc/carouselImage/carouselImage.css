@@ -1,0 +1,30 @@
+img{
+    width: 275px;
+    height: 283px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slds-carousel__content{
+    text-align: left;
+    width: 100%;
+    height: auto;
+}
+.product-price{
+    color: black;
+    font-size: 25px;
+}
+.or-price{
+    text-decoration: line-through;
+    font-weight: bold;
+}
+.discount{
+    color: rgb(4, 106, 4);
+    font-weight: bold;
+}
+/* lightning-card{
+    --sds-c-card-color-background: #aadae9d8;
+    --sds-c-card-color-border: #aadae9d8;
+    --sds-c-button-brand-color-background: purple;
+    
+} */

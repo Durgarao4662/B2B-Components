@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    align-items: center;
+    max-width: max-content;
+    margin-left: 5%;
+}
+ .sub-button{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+/*.inp-textbox{
+    width: 141%;
+} */
